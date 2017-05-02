@@ -12,6 +12,7 @@
 		80E4B0FE1EB8BBF800D497F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B0FD1EB8BBF800D497F0 /* ViewController.m */; };
 		80E4B1001EB8BBF800D497F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B0FF1EB8BBF800D497F0 /* Assets.xcassets */; };
 		80E4B1031EB8BBF800D497F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E4B1011EB8BBF800D497F0 /* Main.storyboard */; };
+		80E4B10E1EB8BCB900D497F0 /* NSArray+Safip.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E4B10D1EB8BCB900D497F0 /* NSArray+Safip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		80E4B0FF1EB8BBF800D497F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E4B1021EB8BBF800D497F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80E4B1041EB8BBF800D497F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E4B10C1EB8BCB900D497F0 /* NSArray+Safip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safip.h"; sourceTree = "<group>"; };
+		80E4B10D1EB8BCB900D497F0 /* NSArray+Safip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		80E4B0F51EB8BBF800D497F0 /* AlgorithmsAndDataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				80E4B10A1EB8BC8D00D497F0 /* Extensions */,
 				80E4B0F61EB8BBF800D497F0 /* AppDelegate.h */,
 				80E4B0F71EB8BBF800D497F0 /* AppDelegate.m */,
 				80E4B0FC1EB8BBF800D497F0 /* ViewController.h */,
@@ -74,6 +78,15 @@
 				80E4B0FA1EB8BBF800D497F0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E4B10A1EB8BC8D00D497F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80E4B10C1EB8BCB900D497F0 /* NSArray+Safip.h */,
+				80E4B10D1EB8BCB900D497F0 /* NSArray+Safip.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E4B10E1EB8BCB900D497F0 /* NSArray+Safip.m in Sources */,
 				80E4B0FE1EB8BBF800D497F0 /* ViewController.m in Sources */,
 				80E4B0FB1EB8BBF800D497F0 /* main.m in Sources */,
 				80E4B0F81EB8BBF800D497F0 /* AppDelegate.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSArray+Safip.h"
 
 @interface AppDelegate ()
 
@@ -14,8 +15,17 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    NSMutableArray *array = [NSMutableArray array];
+    
+    for (int i = 0; i < 100; i++)
+    {
+        [array addObject:@(arc4random_uniform(1000))];
+    }
+    NSLog(@"Start Array: %@", array);
+    NSLog(@"Sorted Array: %@", [array quickSort]);
+
 }
 
 
